@@ -1,9 +1,16 @@
-import React from 'react'
-
+import React from "react";
+import { Header, Info, Topics, Blog, Testimonials, Footer } from "./components";
 function App() {
   return (
-    <div>Starting Artist Page!!</div>
-  )
+    <>
+      <Header />
+      <Topics />
+      <Info />
+      <Blog />
+      <Testimonials />
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;
