@@ -1,0 +1,30 @@
+/* set palette colors Creating their variables*/
+:root {
+  --dark-color: #181e1e;
+  --red-color: #e63946;
+  --pink-color: #ff6864;
+  --yellow-color:#ffca28;
+}
+
+/* set the box size into  border box for all the elements
+so that we have the correct height and width */
+*,
+*::after,
+*::before {
+  box-sizing:border-box;
+}
+
+/* set margin zero */
+body{
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
